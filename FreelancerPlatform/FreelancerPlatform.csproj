@@ -18,10 +18,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\_AdminLayout  - Copier.cshtml" />
+    <Content Remove="Views\Shared\_AdminLayout .cshtml" />
     <Content Remove="Views\Shared\_Layout - Copier.cshtml" />
+    <Content Remove="wwwroot\images\about.webp" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Views\Shared\_AdminLayout  - Copier.cshtml.css" />
+    <None Remove="Views\Shared\_AdminLayout .cshtml.css" />
     <None Remove="Views\Shared\_Layout - Copier.cshtml.css" />
   </ItemGroup>
 

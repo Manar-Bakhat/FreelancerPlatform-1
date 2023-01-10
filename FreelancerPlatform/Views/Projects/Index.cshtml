@@ -2,12 +2,21 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "_ALayout";
 }
 
-<h1>Index</h1>
+
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="button" style="
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #FF1493;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+ 
+">Create New</a>
 </p>
 <table class="table">
     <thead>
